@@ -1,0 +1,15 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Python virtual environments
+.venv/
+venv/
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# Test data
+test_data/
