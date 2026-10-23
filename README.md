@@ -85,6 +85,12 @@ dist/bulk_renamer.exe
 - `core.py` — file discovery, filename generation, validation, and rename operations.
 - `test.py` — automated unit tests.
 
+### Windows SmartScreen Warning
+
+When launching `bulk_renamer.exe`, Windows may display a Microsoft Defender SmartScreen warning because the application is new and does not have an established reputation or a code-signing certificate.
+
+This warning does not necessarily mean the application is unsafe. For your security, download the executable only from the official [GitHub Releases](https://github.com/yoelpranatawork/bulk_renamer/releases) page and review the source code if you wish to inspect how the application works.
+
 ## Disclaimer
 
 Bulk Renamer is provided **"AS IS" and without warranties of any kind**, whether express or implied.
